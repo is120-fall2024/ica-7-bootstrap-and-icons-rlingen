@@ -23,7 +23,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#myForm">myForm</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -35,5 +35,64 @@
           </div>
         </div>
       </nav>
+
+      <div class="accordion" id="myForm">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              myForm
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#myForm">
+            <div class="accordion-body">
+            <form class="container">
+          <div class="row gy-2">
+          <div class="col-12"><h4>Newsletter Signup:</h4></div>
+
+          <div class="col-4"><label for="firstName" class="form-label">First Name:</label></div>
+          <div class="col-4">
+             <input 
+              type="text" 
+              class="form-control" 
+              id="firstName" 
+              placeholder="John"></div>
+          <div class="col-4"></div>
+
+          <div class="col-4"><label for="lastName" class="form-label">Last Name:</label></div>
+          <div class="col-4">
+            <input 
+              type="text" 
+              class="form-control"
+              id="lastName" 
+              placeholder="Doe"></div>
+          <div class="col-4"></div>
+
+          <div class="col-4"> 
+            <label for="emailText" class="form-label">Email address:</label>
+          </div>
+          <div class="col-4">
+            <input 
+              type="email" 
+              class="form-control" 
+              id="emailText" 
+              placeholder="name@example.com">
+            </div>
+          <div class="col-4"></div>
+          
+          
+
+        </div>
+      </form>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+</div>
+
+
 </body>
 </html>
