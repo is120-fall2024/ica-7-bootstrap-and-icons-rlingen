@@ -1,9 +1,7 @@
-.cardClass{
-    text-align: center;
-
-}
-
-.moreSpace{
-    padding-top: 20em;
-    border-top: 20em;
+.newFont{
+ 
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 30;
+      font-style: normal;
 }
